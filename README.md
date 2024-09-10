@@ -24,21 +24,9 @@
   </ol>
  </ul>
 
-
-
-Performance Benchmarks:
-
-Generate an array of coordinate pairs in each coordinate system (Cartesian, polar, spherical).
-Compute the distances between these points for each coordinate system.
-Measure the computation time for each coordinate system.
-Choose an array size that results in minimal variability in benchmarking results between runs (a recommended array size is 10,000 to 100,000 points).
-Report Requirements
-Describe the process of transitioning between coordinate systems and the results of checking calculation accuracy.
-Present benchmarking results in the form of tables or graphs, indicating the time required for distance calculations in each coordinate system.
-Draw conclusions regarding the efficiency of using each coordinate system for distance calculations.
-Recommendations
-Use any programming language or development environment that you are comfortable with (e.g., Python, JavaScript, C++).
-Pay attention to code optimization for benchmarking to reduce variability in the results.
-Evaluation Criteria
-The quality and validity of conclusions based on benchmarking results.
-The quality of the report presentation.
+<h2>3) Performance Benchmarks:</h2>
+ <ul>Generate an array of coordinate pairs in each coordinate system (Cartesian, polar, spherical).
+  <li>Compute the distances between these points for each coordinate system.</li>
+  <li>Measure the computation time for each coordinate system.</li>
+  <li>Choose an array size that results in minimal variability in benchmarking results between runs (a recommended array size is 10,000 to 100,000 points).</li>
+ </ul>
