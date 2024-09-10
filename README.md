@@ -1,33 +1,30 @@
 <h1>Tasks</h1>
 <h2>1) Transition Between Coordinate Systems:</h2>
  <ul><h3>Two-Dimensional Space: Cartesian and Polar Coordinate Systems</h3>
-  <li>Елемент 1</li>
-  <li>Елемент 2</li>
-  <li>Елемент 3</li>
+  <li>Define the coordinates of several points in the polar coordinate system.</li>
+  <li>Convert these coordinates to the Cartesian coordinate system.</li>
+  <li>Perform the reverse conversion from the Cartesian coordinate system to the polar coordinate system.</li>
+  <li>Verify the correctness of the calculations by ensuring that the initial coordinates match the ones obtained after the reverse conversion.</li>
+</ul>
+<ul><h3>Three-Dimensional Space: Cartesian and Spherical Coordinate Systems</h3>
+  <li>Define the coordinates of several points in the spherical coordinate system.</li>
+  <li>Convert these coordinates to the Cartesian coordinate system.</li>
+  <li>Perform the reverse conversion from the Cartesian coordinate system to the spherical coordinate system.</li>
+  <li>Verify the correctness of the calculations by ensuring that the initial coordinates match the ones obtained after the reverse conversion.</li>
 </ul>
 
+<h2>2) Distance Calculation in the Spherical Coordinate System:</h2>
+ <ul>Compute the distance between points in the spherical coordinate system using two methods:
+  <li>**Cartesian Coordinate System:** Use the standard formula for calculating straight-line distance in two-dimensional and three-dimensional spaces.</li>
+  <li>Polar Coordinate System: Use the formula for calculating the distance between points in a two-dimensional space.</li>
+  <li>Spherical Coordinate System: Compute the distance between points using two methods:</li>
+  <ol>
+  <li>Through the volume of the sphere: Use the formula for straight-line distance in three-dimensional space.</li>
+  <li>Along the surface of the sphere: Use the formula for great-circle distance.</li>
+  </ol>
+ </ul>
 
-Define the coordinates of several points in the polar coordinate system.
-Convert these coordinates to the Cartesian coordinate system.
-Perform the reverse conversion from the Cartesian coordinate system to the polar coordinate system.
-Verify the correctness of the calculations by ensuring that the initial coordinates match the ones obtained after the reverse conversion.
 
-Three-Dimensional Space: Cartesian and Spherical Coordinate Systems
-
-Define the coordinates of several points in the spherical coordinate system.
-Convert these coordinates to the Cartesian coordinate system.
-Perform the reverse conversion from the Cartesian coordinate system to the spherical coordinate system.
-Verify the correctness of the calculations by ensuring that the initial coordinates match the ones obtained after the reverse conversion.
-
-Distance Calculation in the Spherical Coordinate System:
-
-Compute the distance between points in the spherical coordinate system using two methods:
-
-Cartesian Coordinate System: Use the standard formula for calculating straight-line distance in two-dimensional and three-dimensional spaces.
-Polar Coordinate System: Use the formula for calculating the distance between points in a two-dimensional space.
-Spherical Coordinate System: Compute the distance between points using two methods:
-Through the volume of the sphere: Use the formula for straight-line distance in three-dimensional space.
-Along the surface of the sphere: Use the formula for great-circle distance.
 
 Performance Benchmarks:
 
