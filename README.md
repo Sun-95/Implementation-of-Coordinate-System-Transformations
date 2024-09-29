@@ -18,7 +18,7 @@
 <a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/screenshotes/spherical_to_cartesian.png">Output code</a>
 <h2>2) Distance Calculation in the Spherical Coordinate System:</h2>
  <ul>Compute the distance between points in the spherical coordinate system using two methods:
-  <li>**Cartesian Coordinate System:** Use the standard formula for calculating straight-line distance in two-dimensional and three-dimensional spaces.</li>
+  <li>Cartesian Coordinate System: Use the standard formula for calculating straight-line distance in two-dimensional and three-dimensional spaces.</li>
   <li>Polar Coordinate System: Use the formula for calculating the distance between points in a two-dimensional space.</li>
   <li>Spherical Coordinate System: Compute the distance between points using two methods:</li>
   <ol>
