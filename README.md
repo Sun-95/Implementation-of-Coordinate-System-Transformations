@@ -14,7 +14,8 @@
   <li>Perform the reverse conversion from the Cartesian coordinate system to the spherical coordinate system.</li>
   <li>Verify the correctness of the calculations by ensuring that the initial coordinates match the ones obtained after the reverse conversion.</li>
 </ul>
-
+<a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/spherical_to_cartesian.cpp">Code listening</a> <br>
+<a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/screenshotes/spherical_to_cartesian.png">Output code</a>
 <h2>2) Distance Calculation in the Spherical Coordinate System:</h2>
  <ul>Compute the distance between points in the spherical coordinate system using two methods:
   <li>**Cartesian Coordinate System:** Use the standard formula for calculating straight-line distance in two-dimensional and three-dimensional spaces.</li>
