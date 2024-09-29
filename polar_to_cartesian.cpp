@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -12,16 +12,7 @@ void polarToCartesian(double r, double theta, double& x, double& y) {
 // Cartesian coordinates to Polar coordinates
 void cartesianToPolar(double x, double y, double& r, double& theta) {
     r = sqrt(x * x + y * y);
-    theta = atan(y / x);
-}
-
-// Function to normalize angle to the range
-double normalizeAngle(double theta) {
-    const double PI = 3.14159265358979323846;
-    const double TWO_PI = 2 * PI;
-    while (theta < 0) theta += TWO_PI;
-    while (theta >= TWO_PI) theta -= TWO_PI;
-    return theta;
+    theta = atan2(y, x);
 }
 
 int main() {
@@ -29,7 +20,7 @@ int main() {
     double x, y;
     double r_converted, theta_converted;
 
-    cout << "Enter polar coordinates (r and theta in radians):" << endl;
+    cout << "Enter polar coordinates:" << endl;
     cout << "r: ";
     cin >> r;
     cout << "theta: ";
@@ -43,8 +34,6 @@ int main() {
 
     // Convert Cartesian back to polar
     cartesianToPolar(x, y, r_converted, theta_converted);
-    // Normalize the angle
-    theta_converted = normalizeAngle(theta_converted);
 
     cout << "Converted polar coordinates:" << endl;
     cout << "r: " << r_converted << endl;
