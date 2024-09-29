@@ -7,7 +7,7 @@
   <li>Verify the correctness of the calculations by ensuring that the initial coordinates match the ones obtained after the reverse conversion.</li>
 </ul>
 <a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/polar_to_cartesian.cpp">Code listening
- 
+<a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/screenshotes/polar_to_cartesian.png">Output code
 <ul><h3>Three-Dimensional Space: Cartesian and Spherical Coordinate Systems</h3>
   <li>Define the coordinates of several points in the spherical coordinate system.</li>
   <li>Convert these coordinates to the Cartesian coordinate system.</li>
