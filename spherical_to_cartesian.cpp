@@ -17,14 +17,6 @@ void cartesianToSpherical(double x, double y, double z, double& r, double& theta
     phi = acos(z / r);
 }
 
-// Function to normalize angle to the range
-double normalizeAngle(double theta) {
-    const double PI = 3.14159265358979323846;
-    const double TWO_PI = 2 * PI;
-    while (theta < 0) theta += TWO_PI;
-    while (theta >= TWO_PI) theta -= TWO_PI;
-    return theta;
-}
 
 int main() {
     double r, theta, phi;
@@ -48,8 +40,6 @@ int main() {
 
     // Convert Cartesian back to spherical
     cartesianToSpherical(x, y, z, r_converted, theta_converted, phi_converted);
-    // Normalize the angle
-    theta_converted = normalizeAngle(theta_converted);
 
     cout << "Converted polar coordinates:" << endl;
     cout << "r: " << r_converted << endl;
