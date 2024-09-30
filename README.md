@@ -29,7 +29,8 @@
 <a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/distance_calculation.cpp">Code listening</a> <br>
 <a href="https://github.com/Sun-95/Implementation-of-Coordinate-System-Transformations/blob/main/screenshotes/distance_calculation.png">Output code</a>
 <h2>3) Performance Benchmarks:</h2>
- <ul>Generate an array of coordinate pairs in each coordinate system (Cartesian, polar, spherical).
+ <ul>
+  <liGenerate an array of coordinate pairs in each coordinate system (Cartesian, polar, spherical).></li>
   <li>Compute the distances between these points for each coordinate system.</li>
   <li>Measure the computation time for each coordinate system.</li>
   <li>Choose an array size that results in minimal variability in benchmarking results between runs (a recommended array size is 10,000 to 100,000 points).</li>
